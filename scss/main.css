@@ -1,0 +1,241 @@
+body {
+  font-family: 'Open Sans' !important; }
+
+.container {
+  width: 960px !important; }
+
+header {
+  height: 95px;
+  box-sizing: border-box; }
+  header img {
+    padding: 20px 0px 20px 15px; }
+
+.navbar.navbar-default {
+  margin-bottom: 0px;
+  border: 0px; }
+  .navbar.navbar-default .container {
+    padding-top: 10px; }
+    .navbar.navbar-default .container .navbar-left h3 {
+      padding-top: 4.4px;
+      margin: 0px; }
+    .navbar.navbar-default .container .navbar-left a {
+      display: inline-block;
+      border-bottom: 3px solid #EC1666;
+      padding-bottom: 20px;
+      color: #444444;
+      font-size: 17px;
+      font-weight: 700;
+      font-family: 'Open Sans';
+      line-height: 19px;
+      outline-color: #444444;
+      text-decoration: none; }
+    .navbar.navbar-default .container .navbar-right h3 {
+      padding-top: 4.4px;
+      margin: 0px; }
+    .navbar.navbar-default .container .navbar-right a {
+      color: #444444;
+      font-size: 14px;
+      text-decoration: none; }
+    .navbar.navbar-default .container .navbar-right a:hover {
+      display: inline-block;
+      border-bottom: 3px solid #EC1666;
+      padding-bottom: 20px;
+      font-weight: 700; }
+
+.video {
+  max-width: 960px;
+  padding: 20px 0px 20px 0px;
+  margin: 0 auto; }
+  .video h3 {
+    color: #555555; }
+  .video .container .container-left {
+    float: left;
+    width: 50%; }
+    .video .container .container-left p {
+      color: black;
+      font-size: 15.4px;
+      line-height: 24.4833px; }
+      .video .container .container-left p a {
+        color: #14A79D;
+        text-decoration: underline; }
+  .video .container .container-right {
+    float: right;
+    width: 45%; }
+
+.background-green, .background-green1 {
+  height: 89px;
+  background-color: #14A79D; }
+  .background-green h3, .background-green1 h3 {
+    margin: 0px;
+    text-align: center;
+    color: white;
+    padding-top: 35px; }
+
+.table {
+  margin-bottom: 0px !important;
+  height: 1500px;
+  background-color: #F5F5F5; }
+  .table .table.table-condensed {
+    height: 900px; }
+  .table .container {
+    padding-top: 150px; }
+  .table .table.table-hover {
+    height: 1080px; }
+    .table .table.table-hover tbody td p {
+      font-size: 10px; }
+  .table .table-head {
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    color: black;
+    width: 100%;
+    float: left;
+    text-transform: uppercase; }
+  .table .table-head.bottom {
+    color: #EC1666;
+    font-size: 24px;
+    margin-top: 15px; }
+  .table .table tbody tr td h4 {
+    font-weight: bold;
+    font-size: 16px; }
+  .table .table tbody tr td p {
+    font-size: 12px; }
+  .table tr {
+    height: 80px; }
+  .table tr.button {
+    height: 70px; }
+  .table table thead tr {
+    background-color: #F5F5F5; }
+  .table table thead tr th {
+    text-align: center; }
+  .table table tr:nth-child(2n) {
+    background-color: #F5F5F5; }
+  .table .table > thead > tr > th {
+    border-bottom: 0px; }
+  .table .table > tbody > tr > td {
+    border-top: 0px;
+    padding-left: 15px;
+    font-family: 'Open Sans' sans-serif; }
+  .table .table > tbody > tr {
+    border: 1px solid #979797; }
+  .table table tr th:hover {
+    background: rgba(20, 167, 157, 0.4); }
+  .table table tr td:hover {
+    background: rgba(20, 167, 157, 0.4); }
+  .table tr td:nth-child(2) {
+    vertical-align: middle;
+    text-align: center; }
+  .table tr td:nth-child(3) {
+    vertical-align: middle;
+    text-align: center; }
+  .table tr td:nth-child(4) {
+    vertical-align: middle;
+    text-align: center; }
+  .table .table.table-condensed .optional a {
+    color: #14A79D; }
+  .table .button td {
+    padding-bottom: 10px;
+    padding-top: 20px; }
+  .table button {
+    background-color: #EC1666;
+    height: 40px;
+    color: white;
+    font-size: 17px;
+    border-color: #EC1666; }
+    .table button:hover {
+      background-color: #EC1666;
+      border-color: #EC1666; }
+
+.button {
+  height: 520px; }
+  .button .container-button {
+    width: 700px;
+    text-align: center;
+    margin: 55px 0px 0px 110px; }
+    .button .container-button button {
+      background-color: #EC1666;
+      border-color: #EC1666;
+      color: white;
+      font-size: 18px;
+      padding: 15px;
+      text-transform: uppercase; }
+    .button .container-button h3 {
+      color: black; }
+    .button .container-button p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 20px;
+      font-family: 'Open Sans'; }
+
+.footer {
+  background-color: #F5F5F5; }
+  .footer .container {
+    padding-top: 60px;
+    padding-bottom: 50px; }
+  .footer .row ul {
+    padding-left: 28px; }
+  .footer .row .header-footer {
+    width: 290px;
+    height: 23px; }
+    .footer .row .header-footer img {
+      float: left;
+      height: 23px; }
+    .footer .row .header-footer h5 {
+      height: 23px;
+      width: 270px;
+      padding: 10px 0px 0px 35px;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: "Lato";
+      color: #555555; }
+  .footer .row p {
+    font-size: 1.1em;
+    font-family: "Open Sans";
+    line-height: 1.7em;
+    color: #555; }
+  .footer .row li {
+    list-style: none; }
+  .footer .row a {
+    position: relative;
+    color: black; }
+  .footer .row a:before {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: black;
+    border-radius: 3px;
+    position: absolute;
+    left: -23px;
+    top: 5px;
+    display: block; }
+  .footer hr {
+    height: 2px;
+    background-color: #14A79D;
+    text-align: left;
+    margin-left: 0px; }
+
+footer {
+  background-color: #555555;
+  height: 64px;
+  box-sizing: border-box; }
+  footer .container .footer-left {
+    float: left;
+    padding-top: 22px; }
+    footer .container .footer-left p {
+      color: white; }
+  footer .container .footer-right {
+    float: right; }
+    footer .container .footer-right ul {
+      padding-top: 10px; }
+    footer .container .footer-right ul li {
+      display: inline-table;
+      height: 40px;
+      line-height: 40px;
+      padding: 0px 15px; }
+      footer .container .footer-right ul li a {
+        color: white;
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
